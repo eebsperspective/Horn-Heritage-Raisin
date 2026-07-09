@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//private/tmp/claude-501/**)",
+      "Bash(mkdir -p import_tmp)",
+      "Bash(unzip -o \"/Users/littlemacmini/Downloads/Horn Heritage Resins website-handoff.zip\" -d import_tmp)",
+      "Read(//tmp/**)",
+      "Bash(npm -v)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Skill(run)",
+      "Bash(chromium-cli --help)",
+      "Bash(npx --yes playwright --version)",
+      "Bash(npx --yes playwright install chromium)",
+      "Bash(npx --yes playwright@1.61.1 node \"/private/tmp/claude-501/-Users-littlemacmini-Desktop-HORN/7aec0fef-bdcf-44c3-b867-aa62a47d0d76/scratchpad/shot.mjs\")",
+      "Bash(npm ls *)",
+      "Bash(npm init *)",
+      "Bash(node shot.mjs)",
+      "Bash(python3 -c ' *)",
+      "Bash(node -e ' *)",
+      "Bash(sips -g hasAlpha -g pixelWidth -g pixelHeight \"/Users/littlemacmini/Desktop/HORN/src/assets/logo.png\")",
+      "Bash(sips -g hasAlpha \"/Users/littlemacmini/Desktop/HORN/src/assets/header-logo.png\")",
+      "Bash(identify -format \"%[pixel:p{0,0}]\" \"/Users/littlemacmini/Desktop/HORN/src/assets/logo.png\")",
+      "Bash(identify -format \"%[pixel:p{0,0}]\" \"/Users/littlemacmini/Desktop/HORN/src/assets/header-logo.png\")",
+      "Bash(node crop.mjs)",
+      "Bash(curl *)"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+.hhr-story {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  align-items: center;
+}
+
+.hhr-story__media {
+  height: 520px;
+}
+
+.hhr-story__copy {
+  padding: 48px 72px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hhr-story__title {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.hhr-story__desc {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--hhr-ink-soft);
+  max-width: 480px;
+  font-weight: 300;
+}
+
+@media (max-width: 900px) {
+  .hhr-story {
+    grid-template-columns: 1fr;
+  }
+
+  .hhr-story__media {
+    height: 320px;
+  }
+}

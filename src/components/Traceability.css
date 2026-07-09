@@ -1,0 +1,32 @@
+.hhr-trace {
+  background: var(--hhr-teal);
+  color: var(--hhr-forest-text);
+  padding: 80px 64px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+}
+
+.hhr-trace__item {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.hhr-trace__heading {
+  font-size: 26px;
+}
+
+.hhr-trace__desc {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #cfe3de;
+  font-weight: 300;
+}
+
+@media (max-width: 900px) {
+  .hhr-trace {
+    grid-template-columns: 1fr;
+    padding: 56px 32px;
+  }
+}

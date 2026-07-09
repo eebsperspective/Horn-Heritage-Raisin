@@ -1,0 +1,31 @@
+.hhr-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 26px 64px;
+  border-bottom: 1px solid var(--hhr-border);
+  gap: 24px;
+}
+
+.hhr-header__logo {
+  height: 58px;
+  width: auto;
+}
+
+.hhr-header__nav {
+  display: flex;
+  gap: 36px;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hhr-header__cta {
+  border: 1px solid var(--hhr-ink);
+  padding: 10px 22px;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  border-radius: 2px;
+  white-space: nowrap;
+}
