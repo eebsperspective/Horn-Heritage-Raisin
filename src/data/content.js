@@ -1,3 +1,14 @@
+import categoryFrankincense from '../assets/photos/category-frankincense.png';
+import categoryMyrrh from '../assets/photos/category-myrrh.png';
+import categoryBlends from '../assets/photos/category-blends.png';
+import categoryBurningEssentials from '../assets/photos/category-burning-essentials.png';
+import categoryResinOils from '../assets/photos/category-resin-oils.png';
+import categoryGiftSets from '../assets/photos/category-gift-sets.png';
+import categoryWholesale from '../assets/photos/category-wholesale.png';
+import journalHistory from '../assets/photos/journal-history.png';
+import journalGuide from '../assets/photos/journal-guide.png';
+import journalRitual from '../assets/photos/journal-ritual.png';
+
 export const navLinks = [
   { label: 'Shop', href: '#shop' },
   { label: 'Our Story', href: '#story' },
@@ -8,13 +19,13 @@ export const navLinks = [
 ];
 
 export const categories = [
-  { name: 'Frankincense', sub: 'Graded by quality — Hojari, Maydi and Beyo', tag: '01' },
-  { name: 'Myrrh', sub: 'Raw resin, a few different grades', tag: '02' },
-  { name: 'Blends', sub: 'Frankincense and myrrh, mixed by hand', tag: '03' },
-  { name: 'Burning Essentials', sub: 'Charcoal discs and traditional dabqaad burners', tag: '04' },
-  { name: 'Resin Oils', sub: 'Frankincense and myrrh, distilled into oil', tag: '05' },
-  { name: 'Gift Sets', sub: 'Resin, a burner, and a simple care guide', tag: '06' },
-  { name: 'Wholesale', sub: 'For shops, spas, and mosques', tag: '07' },
+  { name: 'Frankincense', sub: 'Graded by quality — Hojari, Maydi and Beyo', tag: '01', img: categoryFrankincense },
+  { name: 'Myrrh', sub: 'Raw resin, a few different grades', tag: '02', img: categoryMyrrh },
+  { name: 'Blends', sub: 'Frankincense and myrrh, mixed by hand', tag: '03', img: categoryBlends },
+  { name: 'Burning Essentials', sub: 'Charcoal discs and traditional dabqaad burners', tag: '04', img: categoryBurningEssentials },
+  { name: 'Resin Oils', sub: 'Frankincense and myrrh, distilled into oil', tag: '05', img: categoryResinOils },
+  { name: 'Gift Sets', sub: 'Resin, a burner, and a simple care guide', tag: '06', img: categoryGiftSets },
+  { name: 'Wholesale', sub: 'For shops, spas, and mosques', tag: '07', img: categoryWholesale },
 ];
 
 export const traceItems = [
@@ -40,9 +51,9 @@ export const howtoSteps = [
 ];
 
 export const journalPosts = [
-  { title: 'A Short History of the Land of Punt', tag: 'History' },
-  { title: 'What Makes Hojari Different From Maydi', tag: 'Guide' },
-  { title: 'Dabqaad: How Resin Is Traditionally Burned', tag: 'Ritual' },
+  { title: 'A Short History of the Land of Punt', tag: 'History', img: journalHistory },
+  { title: 'What Makes Hojari Different From Maydi', tag: 'Guide', img: journalGuide },
+  { title: 'Dabqaad: How Resin Is Traditionally Burned', tag: 'Ritual', img: journalRitual },
 ];
 
 export const footerCols = [

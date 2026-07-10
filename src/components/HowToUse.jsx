@@ -1,4 +1,4 @@
-import Placeholder from './Placeholder';
+import risingSmoke from '../assets/photos/rising-smoke.png';
 import { howtoSteps } from '../data/content';
 import './HowToUse.css';
 
@@ -21,7 +21,7 @@ export default function HowToUse() {
         </a>
       </div>
       <div className="hhr-howto__media">
-        <Placeholder preset="sand" caption="lifestyle photo — dabqaad burner with rising smoke" />
+        <img className="hhr-media-img" src={risingSmoke} alt="Dabqaad burner with rising smoke" />
       </div>
     </section>
   );

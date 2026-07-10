@@ -1,4 +1,4 @@
-import headerLogo from '../assets/header-logo.png';
+import footerLogo from '../assets/footer-logo.svg';
 import { footerCols } from '../data/content';
 import './Footer.css';
 
@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="hhr-footer" id="contact">
       <div className="hhr-footer__brand">
-        <img className="hhr-footer__logo" src={headerLogo} alt="Horn Heritage Resins" />
+        <img className="hhr-footer__logo" src={footerLogo} alt="Horn Heritage Resins" />
         <p className="hhr-footer__tagline">
           Frankincense and myrrh, harvested by hand in Puntland, Somalia.
         </p>

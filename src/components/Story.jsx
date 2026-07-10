@@ -1,11 +1,15 @@
-import Placeholder from './Placeholder';
+import harvesterPhoto from '../assets/photos/harvester-collecting-resin.png';
 import './Story.css';
 
 export default function Story() {
   return (
     <section className="hhr-story" id="story">
       <div className="hhr-story__media">
-        <Placeholder preset="sand" caption="lifestyle photo — harvester collecting resin, Puntland" />
+        <img
+          className="hhr-media-img"
+          src={harvesterPhoto}
+          alt="Harvester collecting resin in Puntland"
+        />
       </div>
       <div className="hhr-story__copy">
         <div className="hhr-eyebrow">Our Story</div>

@@ -1,4 +1,3 @@
-import Placeholder from './Placeholder';
 import { journalPosts } from '../data/content';
 import './Journal.css';
 
@@ -18,7 +17,7 @@ export default function Journal() {
         {journalPosts.map((p) => (
           <div className="hhr-journal-card" key={p.title}>
             <div className="hhr-journal-card__media">
-              <Placeholder preset="sandLight" caption="journal photo" />
+              <img className="hhr-media-img" src={p.img} alt={p.title} />
             </div>
             <div className="hhr-journal-card__tag">{p.tag}</div>
             <h3 className="hhr-journal-card__title">{p.title}</h3>

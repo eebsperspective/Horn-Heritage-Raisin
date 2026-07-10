@@ -1,4 +1,3 @@
-import Placeholder from './Placeholder';
 import { categories } from '../data/content';
 import './ShopByCategory.css';
 
@@ -17,7 +16,7 @@ export default function ShopByCategory() {
         {categories.map((c) => (
           <div className="hhr-category-card" key={c.tag}>
             <div className="hhr-category-card__media">
-              <Placeholder preset="sandLight" caption={c.name} />
+              <img className="hhr-media-img" src={c.img} alt={c.name} />
             </div>
             <div className="hhr-category-card__body">
               <div className="hhr-category-card__tag">{c.tag}</div>

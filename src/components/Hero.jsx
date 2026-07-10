@@ -1,4 +1,4 @@
-import Placeholder from './Placeholder';
+import productPhoto from '../assets/photos/product-hojari-frankincense.png';
 import './Hero.css';
 
 export default function Hero() {
@@ -21,7 +21,11 @@ export default function Hero() {
         </div>
       </div>
       <div className="hhr-hero__media">
-        <Placeholder preset="forest" caption="product photo — hojari frankincense tears, close crop" />
+        <img
+          className="hhr-media-img"
+          src={productPhoto}
+          alt="Hojari frankincense tears, close crop"
+        />
       </div>
     </section>
   );
