@@ -35,8 +35,9 @@ const features: {
   {
     title: "Premium grades, clearly defined",
     body: "We grade on three things you can see: tear size, color, and clarity. Larger, paler, more translucent tears generally indicate a cleaner tap and slower, more careful drying. Here's how our four grades compare.",
-    imageCaption: "",
+    imageCaption: "Frankincense resin tears, showing the range of size and color our grades are built on.",
     imageKind: "macro",
+    imageSrc: "/images/frankincense-resin-lumps.jpg",
     reverse: true,
   },
   {
@@ -49,8 +50,9 @@ const features: {
   {
     title: "Traditional harvesting",
     body: "Tapping is done by hand, using techniques passed down through generations of the same harvesting families — a shallow incision, careful timing, and rotation between trees to avoid over-tapping. This isn't nostalgia; it's what protects both resin quality and the long-term health of the trees themselves.",
-    imageCaption: "A harvester using traditional tapping tools passed down through his family.",
+    imageCaption: "A healed tapping wound on a Boswellia trunk, with a hand-collected resin tear.",
     imageKind: "portrait",
+    imageSrc: "/images/boswellia-tapping.jpg",
     reverse: true,
   },
   {
@@ -58,6 +60,7 @@ const features: {
     body: "Bark fragments and dust are the two most common contaminants in commodity-grade resin. Our multi-pass hand-sorting removes both before packaging, so what you receive is resin — not resin mixed with debris.",
     imageCaption: "Sorted frankincense tears, free of bark and dust, ready for packaging.",
     imageKind: "packaging",
+    imageSrc: "/images/frankincense-resin-display.jpg",
   },
   {
     title: "Direct sourcing",

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Container } from "@/components/shared/Container";
 import { Breadcrumbs } from "@/components/shared/Breadcrumbs";
 import { SectionHeading } from "@/components/shared/SectionHeading";
+import Image from "next/image";
 import { PlaceholderImage } from "@/components/shared/PlaceholderImage";
 import { Button } from "@/components/shared/Button";
 import { breadcrumbJsonLd, jsonLdScriptProps } from "@/lib/seo";
@@ -15,11 +16,12 @@ export const metadata: Metadata = {
 
 const crumbs = [{ label: "Home", href: "/" }, { label: "Sustainability & Sourcing" }];
 
-const pillars = [
+const pillars: { title: string; body: string; imageCaption: string; imageSrc?: string }[] = [
   {
     title: "Sustainable tapping practices",
     body: "Harvesters rotate between trees across the season rather than repeatedly tapping the same one, giving each tree rest between harvests. Over-tapping reduces both a tree's long-term yield and its health — protecting the tree protects next season's harvest too.",
-    imageCaption: "A harvester rotating to a rested tree rather than re-tapping the same one.",
+    imageCaption: "A Boswellia trunk showing a healed tapping wound and a freshly collected resin tear.",
+    imageSrc: "/images/boswellia-tapping.jpg",
   },
   {
     title: "Family partnerships across Puntland",
@@ -29,7 +31,8 @@ const pillars = [
   {
     title: "Environmental stewardship",
     body: "Beyond tapping rotation, we prioritize working with families who harvest within established regional practices rather than expanding into new, untapped stands. We're building out more formal environmental commitments as our sourcing program matures — we'd rather state plainly what we do today than promise more than we can verify.",
-    imageCaption: "Boswellia trees in the Puntland highlands, part of an established harvesting stand.",
+    imageCaption: "A Boswellia tree in the rocky highlands, representative of the terrain across Puntland.",
+    imageSrc: "/images/puntland-tree-landscape.png",
   },
 ];
 
@@ -61,7 +64,13 @@ export default function SustainabilityPage() {
               index % 2 === 1 ? "lg:[&>*:first-child]:order-2" : ""
             }`}
           >
-            <PlaceholderImage caption={pillar.imageCaption} kind="process" aspect="aspect-[4/3]" />
+            {pillar.imageSrc ? (
+              <div className="relative aspect-[4/3] w-full overflow-hidden">
+                <Image src={pillar.imageSrc} alt={pillar.imageCaption} fill className="object-cover" />
+              </div>
+            ) : (
+              <PlaceholderImage caption={pillar.imageCaption} kind="process" aspect="aspect-[4/3]" />
+            )}
             <div>
               <h2 className="font-display text-3xl text-brown-900">{pillar.title}</h2>
               <p className="mt-4 text-brown-700">{pillar.body}</p>

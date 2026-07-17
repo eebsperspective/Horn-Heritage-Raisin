@@ -21,12 +21,13 @@ export function Hero() {
           <p className="tracked mb-5 text-xs font-medium uppercase text-sand-100">
             Direct from Puntland, Somalia
           </p>
-          <h1 className="font-display text-5xl leading-[1.05] text-sand-50 sm:text-6xl lg:text-7xl">
-            Premium Frankincense &amp; Myrrh.
-            <br />
-            <em className="italic">Harvested in Puntland.</em>
-            <br />
-            Shipped Worldwide.
+          <h1 className="text-sand-50">
+            <span className="font-display block text-5xl leading-[1.05] sm:text-6xl lg:text-7xl">
+              Premium Frankincense &amp; Myrrh.
+            </span>
+            <span className="font-sans mt-4 block text-xl font-medium leading-snug text-sand-200 sm:text-2xl lg:text-3xl">
+              Harvested in Puntland. Shipped Worldwide.
+            </span>
           </h1>
           <p className="mt-7 max-w-md text-base text-sand-200">
             Hand-sorted, premium grades, sourced directly from harvesting families across

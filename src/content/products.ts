@@ -79,7 +79,7 @@ export const products: Product[] = [
       { weightGrams: 1000, label: "1kg", price: 210 },
     ],
     images: [
-      { kind: "macro", caption: "Super Grade frankincense tears showing amber color and clarity." },
+      { kind: "macro", caption: "Super Grade frankincense tears showing amber color and clarity.", src: "/images/frankincense-resin-display.jpg" },
       { kind: "scale", caption: "A handful of Super Grade tears for scale." },
       { kind: "packaging", caption: "Super Grade frankincense in branded Horn Heritage packaging." },
     ],
@@ -105,7 +105,7 @@ export const products: Product[] = [
       { weightGrams: 1000, label: "1kg", price: 235 },
     ],
     images: [
-      { kind: "macro", caption: "Boswellia frereana tears, showing their characteristic pale, brittle texture." },
+      { kind: "macro", caption: "Boswellia frereana tears, showing their characteristic pale, brittle texture.", src: "/images/frankincense-resin-bowl.jpg" },
       { kind: "scale", caption: "Maydi resin tears held for scale." },
       { kind: "packaging", caption: "Maydi frankincense packed and sealed for export." },
     ],
@@ -130,7 +130,7 @@ export const products: Product[] = [
       { weightGrams: 1000, label: "1kg", price: 95 },
     ],
     images: [
-      { kind: "macro", caption: "Standard Grade frankincense, mixed tear sizes." },
+      { kind: "macro", caption: "Standard Grade frankincense, mixed tear sizes.", src: "/images/frankincense-resin-lumps.jpg" },
       { kind: "scale", caption: "Standard Grade tears shown at scale in hand." },
       { kind: "packaging", caption: "Standard Grade frankincense in a resealable bag." },
     ],
@@ -208,7 +208,7 @@ export const products: Product[] = [
     ],
     images: [
       { kind: "macro", caption: "Frankincense and myrrh tears mixed together.", src: "/images/blend-resin.png" },
-      { kind: "scale", caption: "The blend shown in-hand for scale." },
+      { kind: "scale", caption: "Frankincense and myrrh side by side, the two resins that make up the blend.", src: "/images/frankincense-myrrh-market.jpg" },
       { kind: "packaging", caption: "The blend packed in a resealable pouch." },
     ],
     featured: false,

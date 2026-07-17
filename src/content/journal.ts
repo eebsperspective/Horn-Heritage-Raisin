@@ -31,6 +31,7 @@ export const journalPosts: JournalMeta[] = [
       "Two of the Horn of Africa's most important frankincense species, compared — aroma, appearance, traditional use, and how to choose between them.",
     category: "Resin Education",
     date: "2026-01-22",
+    image: "/images/frankincense-resin-lumps.jpg",
   },
   {
     slug: "inside-the-harvest-puntland",

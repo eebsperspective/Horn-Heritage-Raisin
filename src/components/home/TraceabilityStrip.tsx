@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Container } from "@/components/shared/Container";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 import { PlaceholderImage } from "@/components/shared/PlaceholderImage";
@@ -16,12 +17,18 @@ export function TraceabilityStrip() {
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
           {traceabilitySteps.map((step, index) => (
             <div key={step.step} className="text-center">
-              <PlaceholderImage
-                caption={step.caption}
-                kind="process"
-                aspect="aspect-square"
-                showCaption={false}
-              />
+              {step.image ? (
+                <div className="relative aspect-square w-full overflow-hidden">
+                  <Image src={step.image} alt={step.caption} fill className="object-cover" />
+                </div>
+              ) : (
+                <PlaceholderImage
+                  caption={step.caption}
+                  kind="process"
+                  aspect="aspect-square"
+                  showCaption={false}
+                />
+              )}
               <p className="tracked mt-3 text-xs font-semibold uppercase text-terracotta-500">
                 Step {index + 1}
               </p>

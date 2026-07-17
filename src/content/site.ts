@@ -148,10 +148,11 @@ export const orderVolumeRanges = [
   { value: "not-sure", label: "Not sure yet" },
 ];
 
-export const traceabilitySteps = [
+export const traceabilitySteps: { step: string; caption: string; image?: string }[] = [
   {
     step: "Tapping",
-    caption: "A harvester makes a careful incision in a Boswellia tree, Puntland highlands.",
+    caption: "A healed tapping wound on a Boswellia trunk, with a freshly collected resin tear.",
+    image: "/images/boswellia-tapping.jpg",
   },
   {
     step: "Natural drying",
@@ -160,6 +161,7 @@ export const traceabilitySteps = [
   {
     step: "Sorting & grading",
     caption: "Every batch is hand-sorted in multiple passes by tear size, color, and clarity.",
+    image: "/images/resin-bowl-premium.png",
   },
   {
     step: "Packaging",
@@ -167,6 +169,7 @@ export const traceabilitySteps = [
   },
   {
     step: "Loading shipments",
-    caption: "Orders are palletized and loaded for air or sea freight from Bosaso.",
+    caption: "Containers loaded for air or sea freight for export from Puntland.",
+    image: "/images/berbera-port.jpg",
   },
 ];
