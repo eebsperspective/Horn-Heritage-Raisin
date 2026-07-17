@@ -23,7 +23,19 @@
       "Bash(identify -format \"%[pixel:p{0,0}]\" \"/Users/littlemacmini/Desktop/HORN/src/assets/logo.png\")",
       "Bash(identify -format \"%[pixel:p{0,0}]\" \"/Users/littlemacmini/Desktop/HORN/src/assets/header-logo.png\")",
       "Bash(node crop.mjs)",
-      "Bash(curl *)"
+      "Bash(curl *)",
+      "Bash(sips -g pixelWidth -g pixelHeight \"Images/Footer - Logo.png\" \"Images/Fav Icon.png\")",
+      "Bash(mkdir -p src/assets/photos)",
+      "Bash(cp \"Images/Footer - Logo.svg\" src/assets/footer-logo.svg)",
+      "Bash(cp \"Images/PRODUCT PHOTO - HOJARI FRANKINCENSE@2x.png\" src/assets/photos/product-hojari-frankincense.png)",
+      "Bash(cp \"Images/RISING SMOKE@2x.png\" src/assets/photos/rising-smoke.png)",
+      "Bash(cp \"Images/LIFESTYLE PHOTO - HARVESTER COLLECTING RESIN@2x.png\" src/assets/photos/harvester-collecting-resin.png)",
+      "Bash(break)",
+      "Read(//Users/littlemacmini/Library/Caches/ms-playwright/**)",
+      "Read(//Users/littlemacmini/.cache/**)",
+      "Bash(pkill -f \"vite\")",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }
