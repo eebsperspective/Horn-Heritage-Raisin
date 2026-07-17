@@ -16,7 +16,7 @@ export function Header() {
           href="/"
           className="font-display justify-self-center text-center text-2xl tracking-wide text-brown-900 sm:text-3xl"
         >
-          {`${brand.name} Resins`.toUpperCase().split(" ").join("*")}
+          {`${brand.name} Resins`.toUpperCase().split(" ").join(" · ")}
         </Link>
 
         <div className="flex items-center justify-end gap-4">
