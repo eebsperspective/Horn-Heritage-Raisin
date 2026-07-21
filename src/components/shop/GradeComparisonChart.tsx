@@ -7,6 +7,13 @@ const grades = [
     bestFor: "Perfumery, gifting, ceremonial use",
   },
   {
+    name: "Royal Grade",
+    tearSize: "Large, unbroken",
+    color: "Deep reddish-brown",
+    sortingPasses: "3 passes",
+    bestFor: "Perfumery, gifting, ceremonial use",
+  },
+  {
     name: "Super Grade",
     tearSize: "Large",
     color: "Amber, consistent",

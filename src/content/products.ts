@@ -20,7 +20,7 @@ export type Product = {
   resinType: ResinType;
   botanicalName: string;
   region: string;
-  grade: "Royal Hojari" | "Super Grade" | "Premium Grade" | "Standard Grade";
+  grade: "Royal Hojari" | "Royal Grade" | "Super Grade" | "Premium Grade" | "Standard Grade";
   gradeNote: string;
   useTags: UseTag[];
   aromaProfile: string;
@@ -142,7 +142,7 @@ export const products: Product[] = [
     resinType: "myrrh",
     botanicalName: "Commiphora myrrha",
     region: "Bari region, Puntland",
-    grade: "Royal Hojari",
+    grade: "Royal Grade",
     gradeNote: "Dark reddish-brown tears with high oil content, sorted for purity and minimal dust.",
     useTags: ["burning", "perfumery", "wellness"],
     aromaProfile: "Deep, smoky, and slightly medicinal with a bittersweet undertone.",

@@ -104,19 +104,21 @@ export const wholesaleFacts = {
     { name: "Phytosanitary Certificate", status: "available" },
     { name: "Commercial Invoice & Packing List", status: "available" },
     { name: "Export License", status: "available" },
-    { name: "Certificate of Analysis (lab testing)", status: "coming soon" },
+    { name: "Certificate of Analysis (lab testing)", status: "on request" },
   ],
   paymentTerms: "50% deposit to confirm order, balance before dispatch. Established partners may qualify for net terms.",
   incoterms: "EXW, FOB Bosaso, and CIF available depending on destination and order size.",
 };
 
 export const wholesaleBuyerTypes = [
-  { label: "Spas & wellness centers" },
-  { label: "Perfumers & niche fragrance houses" },
-  { label: "Incense brands" },
-  { label: "Apothecaries & herbalists" },
-  { label: "Churches & religious suppliers" },
-  { label: "Cosmetics manufacturers" },
+  { label: "Essential oil manufacturers" },
+  { label: "Cosmetic companies" },
+  { label: "Natural medicine companies" },
+  { label: "Incense manufacturers" },
+  { label: "Luxury perfume houses" },
+  { label: "Churches" },
+  { label: "Mosques" },
+  { label: "Wellness brands" },
   { label: "Retailers & distributors" },
 ];
 

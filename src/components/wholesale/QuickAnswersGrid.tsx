@@ -57,7 +57,7 @@ export function QuickAnswersGrid() {
                     : "tracked border border-sand-300 px-2 py-0.5 text-[10px] font-semibold uppercase text-brown-600"
                 }
               >
-                {doc.status === "available" ? "Available" : "Coming soon"}
+                {doc.status === "available" ? "Available" : "On request"}
               </span>
             </li>
           ))}

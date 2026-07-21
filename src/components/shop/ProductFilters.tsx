@@ -11,6 +11,7 @@ const typeOptions = [
 const gradeOptions = [
   { value: "", label: "All grades" },
   { value: "Royal Hojari", label: "Royal Hojari" },
+  { value: "Royal Grade", label: "Royal Grade" },
   { value: "Super Grade", label: "Super Grade" },
   { value: "Premium Grade", label: "Premium Grade" },
   { value: "Standard Grade", label: "Standard Grade" },
