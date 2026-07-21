@@ -3,7 +3,6 @@ import { Container } from "@/components/shared/Container";
 import { Breadcrumbs } from "@/components/shared/Breadcrumbs";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 import Image from "next/image";
-import { PlaceholderImage } from "@/components/shared/PlaceholderImage";
 import { PuntlandMap } from "@/components/shared/PuntlandMap";
 import { Button } from "@/components/shared/Button";
 import { breadcrumbJsonLd, jsonLdScriptProps } from "@/lib/seo";
@@ -50,7 +49,7 @@ export default function AboutPage() {
           <p className="mt-4 text-brown-700">
             Horn Heritage was founded to close that gap: buying directly from harvesting families
             across Puntland, grading transparently, and shipping straight to the businesses and
-            individuals who value knowing exactly where their frankincense and myrrh came from.
+            individuals who value knowing exactly where their myrrh came from.
             Our first shipment left Bosaso with a handful of partner families and a few dozen
             kilograms of resin. Every shipment since has built on those same relationships.
           </p>
@@ -59,11 +58,14 @@ export default function AboutPage() {
 
       <section className="bg-sand-50 py-16">
         <Container className="grid items-center gap-10 lg:grid-cols-2">
-          <PlaceholderImage
-            caption="Horn Heritage founder in the field with a harvesting family partner."
-            kind="portrait"
-            aspect="aspect-[4/3]"
-          />
+          <div className="relative aspect-[4/3] w-full overflow-hidden">
+            <Image
+              src="/images/puntland-camel-herding.jpg"
+              alt="Camel herding in the Puntland desert, the working landscape behind every harvest."
+              fill
+              className="object-cover"
+            />
+          </div>
           <div>
             <SectionHeading eyebrow="The people" title="Built on real partnerships" />
             <p className="mt-4 text-brown-700">
@@ -89,7 +91,7 @@ export default function AboutPage() {
             <div className="relative aspect-[4/3] w-full overflow-hidden">
               <Image
                 src="/images/puntland-tree-landscape.png"
-                alt="A Boswellia tree in the rocky highlands, representative of the terrain across Puntland."
+                alt="A rocky highland landscape, representative of the terrain across Puntland."
                 fill
                 className="object-cover"
               />

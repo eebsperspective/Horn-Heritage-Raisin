@@ -7,8 +7,8 @@ export function Hero() {
     <section className="relative overflow-hidden bg-brown-900">
       <div className="absolute inset-0">
         <Image
-          src="/images/puntland-tree-landscape.png"
-          alt="A Boswellia tree in a rocky, arid highland landscape — representative of the terrain across Puntland's harvesting regions."
+          src="/images/puntland-acacia-mountains.jpg"
+          alt="A rocky, arid highland landscape representative of the terrain across Puntland's harvesting regions."
           fill
           priority
           sizes="100vw"
@@ -23,7 +23,7 @@ export function Hero() {
           </p>
           <h1 className="text-sand-50">
             <span className="font-display block text-5xl leading-[1.05] sm:text-6xl lg:text-7xl">
-              Premium Frankincense &amp; Myrrh.
+              Premium Myrrh.
             </span>
             <span className="font-sans mt-4 block text-xl font-medium leading-snug text-sand-200 sm:text-2xl lg:text-3xl">
               Harvested in Puntland. Shipped Worldwide.

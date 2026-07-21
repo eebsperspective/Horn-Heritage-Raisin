@@ -8,9 +8,9 @@ import { products, type UseTag } from "@/content/products";
 import { breadcrumbJsonLd, jsonLdScriptProps } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Shop Frankincense & Myrrh Resin",
+  title: "Shop Myrrh Resin",
   description:
-    "Browse hand-sorted, premium-grade frankincense and myrrh resin from Puntland, Somalia — filter by type, grade, size, and use.",
+    "Browse hand-sorted, premium-grade myrrh resin from Puntland, Somalia — filter by grade, size, and use.",
   alternates: { canonical: "/shop" },
 };
 
@@ -42,7 +42,7 @@ export default async function ShopPage({
           <Breadcrumbs items={crumbs} />
           <h1 className="mt-4 font-display text-4xl text-brown-900 sm:text-5xl">Shop Resin</h1>
           <p className="mt-4 max-w-2xl text-lg text-brown-700">
-            Hand-sorted frankincense and myrrh, graded by tear size, color, and clarity.
+            Hand-sorted myrrh, graded by tear size, color, and clarity.
           </p>
         </Container>
       </section>

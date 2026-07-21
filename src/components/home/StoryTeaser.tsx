@@ -1,16 +1,19 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/shared/Container";
-import { PlaceholderImage } from "@/components/shared/PlaceholderImage";
 
 export function StoryTeaser() {
   return (
     <section className="py-20">
       <Container className="grid items-center gap-10 lg:grid-cols-2">
-        <PlaceholderImage
-          caption="Horn Heritage founder with a harvesting family partner, Puntland highlands."
-          kind="portrait"
-          aspect="aspect-[4/3]"
-        />
+        <div className="relative aspect-[4/3] w-full overflow-hidden">
+          <Image
+            src="/images/puntland-camel-caravan.jpg"
+            alt="A camel caravan crossing the Puntland desert, Somalia."
+            fill
+            className="object-cover"
+          />
+        </div>
         <div>
           <p className="tracked mb-3 text-xs font-semibold uppercase text-brown-900">
             Our story

@@ -26,7 +26,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.hornheritage.co
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: `${brand.name} — Premium Frankincense & Myrrh from Puntland`,
+    default: `${brand.name} — Premium Myrrh from Puntland`,
     template: `%s | ${brand.name}`,
   },
   description: brand.descriptionShort,

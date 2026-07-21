@@ -5,7 +5,7 @@ export type FaqItem = {
 
 export const retailFaqs: FaqItem[] = [
   {
-    question: "How do I burn frankincense or myrrh resin?",
+    question: "How do I burn myrrh resin?",
     answer:
       "Place a lit charcoal disc in a heatproof burner or censer filled with sand or ash. Once the disc is glowing and lightly ashed over (2–3 minutes), place a small tear of resin on top. It will release fragrant smoke without needing direct flame contact.",
   },
@@ -17,7 +17,7 @@ export const retailFaqs: FaqItem[] = [
   {
     question: "What's the shelf life?",
     answer:
-      "Frankincense and myrrh don't spoil. Stored correctly, both will remain usable indefinitely, though the aroma profile mellows slightly over time.",
+      "Myrrh doesn't spoil. Stored correctly, it will remain usable indefinitely, though the aroma profile mellows slightly over time.",
   },
   {
     question: "How long does shipping take?",
@@ -40,7 +40,7 @@ export const wholesaleFaqs: FaqItem[] = [
   {
     question: "What's your minimum order quantity (MOQ)?",
     answer:
-      "5 kg per SKU for frankincense or myrrh, or 25 kg combined for a mixed-grade pallet. Private-label or custom packaging orders start at 50 kg. Full details are on our Wholesale & Export page.",
+      "5 kg per SKU for myrrh, or 25 kg combined for a mixed-grade pallet. Private-label or custom packaging orders start at 50 kg. Full details are on our Wholesale & Export page.",
   },
   {
     question: "Can I request a sample before ordering in bulk?",

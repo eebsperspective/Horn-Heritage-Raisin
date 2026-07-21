@@ -1,8 +1,8 @@
 export const brand = {
   name: "Horn Heritage",
-  tagline: "Premium frankincense & myrrh, harvested in Puntland, shipped worldwide.",
+  tagline: "Premium myrrh, harvested in Puntland, shipped worldwide.",
   descriptionShort:
-    "Hand-sorted, premium-grade frankincense and myrrh, sourced directly from harvesting families across Puntland, Somalia.",
+    "Hand-sorted, premium-grade myrrh, sourced directly from harvesting families across Puntland, Somalia.",
   founded: 2021,
   hq: "Bosaso / Garowe, Puntland, Somalia",
 };
@@ -39,7 +39,6 @@ export const footerSitemap = [
     heading: "Shop",
     links: [
       { label: "All Resin", href: "/shop" },
-      { label: "Frankincense", href: "/shop?type=frankincense" },
       { label: "Myrrh", href: "/shop?type=myrrh" },
       { label: "Journal", href: "/learn" },
     ],
@@ -79,7 +78,6 @@ export const trustBullets = [
 
 export const wholesaleFacts = {
   moq: [
-    { category: "Frankincense (all grades)", moq: "5 kg per SKU" },
     { category: "Myrrh (all grades)", moq: "5 kg per SKU" },
     { category: "Mixed pallet / assorted grades", moq: "25 kg combined" },
     { category: "Private label / custom packaging", moq: "50 kg" },
@@ -135,9 +133,7 @@ export const businessTypeOptions = [
 ];
 
 export const wholesaleProductInterests = [
-  { value: "frankincense", label: "Frankincense (all grades)" },
   { value: "myrrh", label: "Myrrh (all grades)" },
-  { value: "blends", label: "Frankincense & myrrh blends" },
   { value: "private-label", label: "Custom / private label" },
   { value: "not-sure", label: "Not sure yet" },
 ];
@@ -153,22 +149,23 @@ export const orderVolumeRanges = [
 export const traceabilitySteps: { step: string; caption: string; image?: string }[] = [
   {
     step: "Tapping",
-    caption: "A healed tapping wound on a Boswellia trunk, with a freshly collected resin tear.",
-    image: "/images/boswellia-tapping.jpg",
+    caption: "Resin forming at a fresh tapping wound on a Commiphora trunk.",
+    image: "/images/myrrh-bark-tapped.jpg",
   },
   {
     step: "Natural drying",
     caption: "Resin tears cure in the open air for several weeks, developing aroma and hardness.",
-    image: "/images/frankincense-tears-bowl.png",
+    image: "/images/myrrh-bark-drip.jpg",
   },
   {
     step: "Sorting & grading",
     caption: "Every batch is hand-sorted in multiple passes by tear size, color, and clarity.",
-    image: "/images/resin-bowl-premium.png",
+    image: "/images/myrrh-stone-bowl.jpg",
   },
   {
     step: "Packaging",
-    caption: "Graded resin is packed in food-grade, moisture-controlled packaging.",
+    caption: "Graded resin bundled and packed for export.",
+    image: "/images/export-crates.jpg",
   },
   {
     step: "Loading shipments",

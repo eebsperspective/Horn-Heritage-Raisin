@@ -20,19 +20,20 @@ const pillars: { title: string; body: string; imageCaption: string; imageSrc?: s
   {
     title: "Sustainable tapping practices",
     body: "Harvesters rotate between trees across the season rather than repeatedly tapping the same one, giving each tree rest between harvests. Over-tapping reduces both a tree's long-term yield and its health — protecting the tree protects next season's harvest too.",
-    imageCaption: "A Boswellia trunk showing a healed tapping wound and a freshly collected resin tear.",
-    imageSrc: "/images/boswellia-tapping.jpg",
+    imageCaption: "A lone tree in the arid Puntland landscape, the terrain harvesting families work across.",
+    imageSrc: "/images/puntland-acacia-plain.jpg",
   },
   {
     title: "Family partnerships across Puntland",
     body: "We buy directly from harvesting families rather than through anonymous brokers or aggregators. That direct relationship means fairer, more consistent pay for harvesters, and it means we know exactly which region — and often which family — each batch came from.",
-    imageCaption: "A Horn Heritage buyer meeting with a partner family in the highlands.",
+    imageCaption: "A portrait from a Puntland trading community.",
+    imageSrc: "/images/puntland-portrait.jpg",
   },
   {
     title: "Environmental stewardship",
     body: "Beyond tapping rotation, we prioritize working with families who harvest within established regional practices rather than expanding into new, untapped stands. We're building out more formal environmental commitments as our sourcing program matures — we'd rather state plainly what we do today than promise more than we can verify.",
-    imageCaption: "A Boswellia tree in the rocky highlands, representative of the terrain across Puntland.",
-    imageSrc: "/images/puntland-tree-landscape.png",
+    imageCaption: "A rocky highland landscape at sunrise, representative of the terrain across Puntland.",
+    imageSrc: "/images/puntland-acacia-sunrise.jpg",
   },
 ];
 

@@ -11,9 +11,9 @@ import { WholesaleForm } from "@/components/wholesale/WholesaleForm";
 import { breadcrumbJsonLd, jsonLdScriptProps } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Wholesale & Export — Frankincense & Myrrh Supplier",
+  title: "Wholesale & Export — Myrrh Supplier",
   description:
-    "MOQ, shipping, lead times, packaging, and export documentation for wholesale frankincense and myrrh from Puntland, Somalia. Request pricing or a sample kit.",
+    "MOQ, shipping, lead times, packaging, and export documentation for wholesale myrrh from Puntland, Somalia. Request pricing or a sample kit.",
   alternates: { canonical: "/wholesale" },
 };
 

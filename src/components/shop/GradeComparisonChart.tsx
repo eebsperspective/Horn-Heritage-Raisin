@@ -2,16 +2,9 @@ const grades = [
   {
     name: "Royal Grade",
     tearSize: "Large, unbroken",
-    color: "Pale gold (frankincense) / deep reddish-brown (myrrh)",
+    color: "Deep reddish-brown, high clarity",
     sortingPasses: "3 passes",
     bestFor: "Perfumery, gifting, ceremonial use",
-  },
-  {
-    name: "Super Grade",
-    tearSize: "Large",
-    color: "Amber, consistent",
-    sortingPasses: "2 passes",
-    bestFor: "Everyday burning, home fragrance",
   },
   {
     name: "Premium Grade",

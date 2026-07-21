@@ -4,14 +4,12 @@ import { useRouter, useSearchParams, usePathname } from "next/navigation";
 
 const typeOptions = [
   { value: "", label: "All types" },
-  { value: "frankincense", label: "Frankincense" },
   { value: "myrrh", label: "Myrrh" },
 ];
 
 const gradeOptions = [
   { value: "", label: "All grades" },
   { value: "Royal Grade", label: "Royal Grade" },
-  { value: "Super Grade", label: "Super Grade" },
   { value: "Premium Grade", label: "Premium Grade" },
   { value: "Standard Grade", label: "Standard Grade" },
 ];

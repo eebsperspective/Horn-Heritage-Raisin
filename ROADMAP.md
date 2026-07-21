@@ -51,19 +51,23 @@ gets silently dropped. None of these are required for launch.
   confirmation email in that API route.
 
 ## Photography
-- Many images on the site are still labeled, on-brand abstract placeholders
-  (`src/components/shared/PlaceholderImage.tsx`), captioned with what the real
-  photo should show. Swap by replacing the placeholder usage with a real
-  `next/image` once photography exists — captions can carry over directly to
-  `alt` text.
+- Every image slot on the site now uses a real photo — none render
+  `src/components/shared/PlaceholderImage.tsx` anymore. It stays in the
+  codebase as the fallback for any new content added without a photo lined
+  up yet.
 - A set of real photos from the brand's own `Images/` asset folder (see
-  `PHOTO_CREDITS.md`) is now wired in: the Home hero, one product photo
-  (Royal Frankincense), two journal thumbnails, the myrrh and blend
-  product photos, the Why Our Resin oil-content/hand-sorting sections, the
-  About "heritage" section, and the favicon/footer mark. Provenance of these
-  images isn't independently verified — confirm they're genuinely
-  representative (or replace with verified on-location Puntland photography)
-  before leaning on them as proof of authenticity in marketing claims.
+  `PHOTO_CREDITS.md`) is wired in: the Home hero, journal thumbnails, the
+  myrrh product photos, the About "heritage" section, and the
+  favicon/footer mark. Provenance of these images isn't independently
+  verified — confirm they're genuinely representative (or replace with
+  verified on-location Puntland photography) before leaning on them as
+  proof of authenticity in marketing claims.
+- A second set of real myrrh/harvest photos, sourced from Wikimedia Commons
+  under CC licenses (see `public/images/CREDITS.md` for author/license
+  detail per file), fills the remaining product-gallery, traceability, and
+  founder/harvester slots. These require visible attribution before
+  production launch — add a credits line (footer or a dedicated "Image
+  credits" page), or replace with photos you have clear rights to.
 - Several assets in `Images/` were deliberately left unused because they
   show a different, conflicting "Horn Heritage Resins" label/logo design, or
   don't match their intended subject — see `PHOTO_CREDITS.md` for the list.

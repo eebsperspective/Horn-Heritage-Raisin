@@ -9,15 +9,49 @@ on-location Puntland photographs until confirmed otherwise.
 
 | File | Used for | Original asset |
 | --- | --- | --- |
-| `public/images/puntland-tree-landscape.png` | Home hero background; journal "Inside the Harvest" thumbnail | `Images/PUNT LAND - HISTORY@2x.png` |
-| `public/images/resin-bowl-premium.png` | Royal Frankincense product photo; journal "Frankincense Grades Explained" thumbnail; Why Our Resin "Hand-sorted grading" | `Images/LIFESTYLE PHOTO - HARVESTER COLLECTING RESIN@2x.png` |
+| `public/images/puntland-tree-landscape.png` | About "trade centuries" landscape; journal "Inside the Harvest" thumbnail | `Images/PUNT LAND - HISTORY@2x.png` |
+| `public/images/resin-bowl-premium.png` | Journal "Frankincense Grades Explained" thumbnail | `Images/LIFESTYLE PHOTO - HARVESTER COLLECTING RESIN@2x.png` |
 | `public/images/burning-ritual-smoke.png` | About "The heritage"; FAQ retail intro | `Images/LIFESTYLE PHOTO - 01@2x.png` |
-| `public/images/blend-resin.png` | Frankincense & Myrrh Blend product photo | `Images/BLENDS@2x.png` |
-| `public/images/myrrh-resin.png` | Myrrh product photos | `Images/MYRRH@2x.png` |
-| `public/images/resin-oil.png` | Why Our Resin "Higher oil content" | `Images/RESIN OILS@2x.png` |
+| `public/images/myrrh-resin.png` | Royal Myrrh macro photo; Why Our Resin "Cleaner resin" | `Images/MYRRH@2x.png` |
 | `public/images/favicon-source.png` (as `src/app/icon.png`) | Site favicon; also reused as the small footer icon mark | `Images/Fav Icon.png` |
-| `public/images/frankincense-burning-tongs.png` | Royal Frankincense product gallery "scale" photo | `Images/PRODUCT PHOTO - HOJARI FRANKINCENSE@2x.png` |
-| `public/images/frankincense-tears-bowl.png` | Traceability strip "Natural drying" step | `Images/RISING SMOKE@2x.png` |
+
+## 2026-07-21 — frankincense product line dropped
+
+The site went myrrh-only on this date (see `git log`). Product photos and
+business copy that existed only to support frankincense products were
+removed along with those products; the two frankincense journal/education
+articles stayed (historical/educational content), so their thumbnails
+(`frankincense-resin-lumps.jpg`, `resin-bowl-premium.png`) stayed too.
+Deleted as orphaned: `blend-resin.png`, `resin-oil.png`,
+`frankincense-burning-tongs.png`, `frankincense-tears-bowl.png`,
+`boswellia-tapping.jpg`, `frankincense-myrrh-market.jpg`,
+`frankincense-resin-bowl.jpg`, `frankincense-resin-display.jpg`.
+
+Four new real myrrh/harvest photos were sourced from Wikimedia Commons to
+fill the gaps this left (product "scale"/"packaging" shots, traceability
+steps, and the founder/harvester portrait slots that had never had a real
+photo): `myrrh-resin-bowl.jpg`, `myrrh-resin-scale.jpg`,
+`myrrh-tapping-harvester.jpg`, and `myrrh-essential-oil.png`. At this point
+one photo (`myrrh-tapping-harvester.jpg`) was reused across 7 different
+captions site-wide — a stopgap, not a real fix.
+
+## 2026-07-21 (later the same day) — reuse cleanup, 14 more distinct photos
+
+The single-photo-reused-7x approach above was replaced with 14 additional
+distinct, high-resolution photos (mostly Pexels, a few more Wikimedia),
+bringing every image slot on the site down to at most 2 uses. `myrrh-tapping-
+harvester.jpg` was deleted (fully superseded, 0 remaining references).
+Full sourcing, author, and license detail for the new set — including notes
+on why each was picked and the honesty tradeoffs involved in using
+non-Somalia-specific stock photography for a Somalia-specific brand — is in
+`public/images/CREDITS.md`.
+
+New files: `myrrh-bark-tapped.jpg`, `myrrh-bark-drip.jpg`,
+`myrrh-bark-tears.jpg`, `myrrh-bark-amber.jpg`, `myrrh-stone-bowl.jpg`,
+`puntland-camel-caravan.jpg`, `puntland-camel-herding.jpg`,
+`puntland-market-scene.jpg`, `puntland-portrait.jpg`,
+`puntland-acacia-plain.jpg`, `puntland-acacia-mountains.jpg`,
+`puntland-acacia-sunrise.jpg`, `tree-bark-texture.jpg`, `export-crates.jpg`.
 
 ## Deliberately not used
 
@@ -41,16 +75,15 @@ A few assets in `Images/` were skipped:
   hand for scale, no packaging shown); left as a placeholder rather than
   attach a caption the photo doesn't actually support.
 
-## Still placeholders (deliberately)
+## Placeholders
 
-A handful of image slots remain `PlaceholderImage` on purpose because no
-real photo we have actually depicts the specific thing captioned:
-- About "Built on real partnerships" and Home `StoryTeaser` — both caption a
-  specific founder/family portrait we don't have.
-- Sustainability "Family partnerships across Puntland" and Why Our Resin
-  "Direct sourcing" — both caption a specific buyer/family meeting photo.
-- Traceability strip "Packaging" step — captions branded packaging we don't
-  have a photo of.
-- Several per-product gallery "scale" and "packaging" shots in
-  `src/content/products.ts` — captions describe hand-for-scale or
-  branded-pouch photos specific to that grade/resin that we don't have.
+As of 2026-07-21, every image slot across the site has a real photo — the
+`PlaceholderImage` component still exists as a fallback for future content
+additions, but nothing currently renders it. Slots that previously had no
+real photo (About "Built on real partnerships", Home `StoryTeaser`,
+Sustainability "Family partnerships across Puntland", Why Our Resin "Direct
+sourcing", Traceability strip "Packaging", and the per-product "scale" /
+"packaging" shots in `src/content/products.ts`) were filled with the new
+myrrh photos described above — some captions were reworded to match what
+the sourced photo actually shows (e.g. "harvester tapping a tree" rather
+than a specific branded-packaging or named-founder shot we don't have).

@@ -1,6 +1,6 @@
 # Horn Heritage
 
-Multi-page e-commerce and wholesale site for Horn Heritage — premium frankincense and myrrh
+Multi-page e-commerce and wholesale site for Horn Heritage — premium myrrh
 resin sourced directly from harvesting families in Puntland, Somalia.
 
 Built with Next.js (App Router), TypeScript, and Tailwind CSS.
@@ -49,9 +49,10 @@ Until a headless CMS is wired up (see `ROADMAP.md`), edit content directly:
 
 ## Photography
 
-Every image on the site is currently a captioned, on-brand placeholder
-(`src/components/shared/PlaceholderImage`) rather than stock photography — see `ROADMAP.md`
-for how to swap in real Puntland photography as it becomes available.
+Every image slot on the site currently uses a real photo — see `PHOTO_CREDITS.md` and
+`public/images/CREDITS.md` for sourcing and license/attribution details.
+`src/components/shared/PlaceholderImage` still exists as a fallback for any content added
+later without a photo lined up yet.
 
 ## Roadmap
 

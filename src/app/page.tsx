@@ -9,9 +9,9 @@ import { StoryTeaser } from "@/components/home/StoryTeaser";
 import { SocialProofSection } from "@/components/home/SocialProofSection";
 
 export const metadata: Metadata = {
-  title: "Premium Frankincense & Myrrh from Puntland, Somalia",
+  title: "Premium Myrrh from Puntland, Somalia",
   description:
-    "Hand-sorted, premium-grade frankincense and myrrh, sourced directly from harvesting families in Puntland, Somalia. Wholesale and retail, shipped worldwide.",
+    "Hand-sorted, premium-grade myrrh, sourced directly from harvesting families in Puntland, Somalia. Wholesale and retail, shipped worldwide.",
   alternates: { canonical: "/" },
 };
 
