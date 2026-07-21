@@ -1,15 +1,8 @@
 const grades = [
   {
-    name: "Royal Hojari",
-    tearSize: "Large, unbroken",
-    color: "Pale gold / translucent",
-    sortingPasses: "3 passes",
-    bestFor: "Perfumery, gifting, ceremonial use",
-  },
-  {
     name: "Royal Grade",
     tearSize: "Large, unbroken",
-    color: "Deep reddish-brown",
+    color: "Pale gold (frankincense) / deep reddish-brown (myrrh)",
     sortingPasses: "3 passes",
     bestFor: "Perfumery, gifting, ceremonial use",
   },

@@ -20,7 +20,7 @@ export type Product = {
   resinType: ResinType;
   botanicalName: string;
   region: string;
-  grade: "Royal Hojari" | "Royal Grade" | "Super Grade" | "Premium Grade" | "Standard Grade";
+  grade: "Royal Grade" | "Super Grade" | "Premium Grade" | "Standard Grade";
   gradeNote: string;
   useTags: UseTag[];
   aromaProfile: string;
@@ -33,19 +33,19 @@ export type Product = {
 
 export const products: Product[] = [
   {
-    slug: "royal-hojari-frankincense",
-    name: "Royal Hojari Frankincense",
+    slug: "royal-frankincense",
+    name: "Royal Frankincense",
     resinType: "frankincense",
     botanicalName: "Boswellia carterii",
     region: "Karkaar mountains, Puntland",
-    grade: "Royal Hojari",
+    grade: "Royal Grade",
     gradeNote:
       "Our top grade — large, pale green-gold tears with minimal bark or dust, hand-sorted in three passes.",
     useTags: ["burning", "perfumery", "wellness"],
     aromaProfile: "Bright, resinous, and citrus-sweet with a clean pine top note.",
     suggestedUses: ["Charcoal burning", "Perfumery tincture base", "Meditation & prayer spaces"],
     description:
-      "Royal Hojari is the rarest grade we offer, harvested from mature Boswellia carterii trees in the Karkaar highlands. Tears are hand-selected for size, pale color, and clarity before a second and third sort removes any bark or dust.",
+      "Our finest frankincense grade, harvested from mature Boswellia carterii trees in the Karkaar highlands. Tears are hand-selected for size, pale color, and clarity before a second and third sort removes any bark or dust.",
     variants: [
       { weightGrams: 50, label: "50g", price: 24 },
       { weightGrams: 100, label: "100g", price: 42 },
@@ -53,9 +53,9 @@ export const products: Product[] = [
       { weightGrams: 1000, label: "1kg", price: 320 },
     ],
     images: [
-      { kind: "macro", caption: "Royal Hojari tears in a brass tray, showing pale gold translucency.", src: "/images/resin-bowl-premium.png" },
-      { kind: "scale", caption: "Royal Hojari resin tears in-hand for scale reference." },
-      { kind: "packaging", caption: "Royal Hojari packed in a resealable food-grade pouch." },
+      { kind: "macro", caption: "Royal Frankincense tears in a brass tray, showing pale gold translucency.", src: "/images/resin-bowl-premium.png" },
+      { kind: "scale", caption: "A Royal Frankincense tear held with tongs over a lit charcoal burner.", src: "/images/frankincense-burning-tongs.png" },
+      { kind: "packaging", caption: "Royal Frankincense packed in a resealable food-grade pouch." },
     ],
     featured: true,
   },

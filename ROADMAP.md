@@ -58,7 +58,7 @@ gets silently dropped. None of these are required for launch.
   `alt` text.
 - A set of real photos from the brand's own `Images/` asset folder (see
   `PHOTO_CREDITS.md`) is now wired in: the Home hero, one product photo
-  (Royal Hojari Frankincense), two journal thumbnails, the myrrh and blend
+  (Royal Frankincense), two journal thumbnails, the myrrh and blend
   product photos, the Why Our Resin oil-content/hand-sorting sections, the
   About "heritage" section, and the favicon/footer mark. Provenance of these
   images isn't independently verified — confirm they're genuinely

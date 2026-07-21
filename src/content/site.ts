@@ -159,6 +159,7 @@ export const traceabilitySteps: { step: string; caption: string; image?: string 
   {
     step: "Natural drying",
     caption: "Resin tears cure in the open air for several weeks, developing aroma and hardness.",
+    image: "/images/frankincense-tears-bowl.png",
   },
   {
     step: "Sorting & grading",
