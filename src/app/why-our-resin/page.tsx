@@ -65,9 +65,9 @@ const features: {
   {
     title: "Direct sourcing",
     body: "We buy directly from harvesting families across Puntland, with full traceability at every step — we know which region, and often which family, every batch came from. That direct relationship means fairer pay for harvesters and a documented chain of custody for you.",
-    imageCaption: "Daily life in a Puntland trading town, where harvesting families bring resin to market.",
+    imageCaption: "Sacks of raw goods at a Puntland trading market, the kind of scene resin passes through before export.",
     imageKind: "landscape",
-    imageSrc: "/images/puntland-market-scene.jpg",
+    imageSrc: "/images/puntland-market-sacks.jpg",
     reverse: true,
   },
 ];

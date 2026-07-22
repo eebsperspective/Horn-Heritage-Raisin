@@ -32,7 +32,7 @@ in that second pass.
 | myrrh-stone-bowl.jpg | Pexels, photo 25676797 | Christina & Peter | Pexels License | No |
 | puntland-camel-caravan.jpg | Pexels, photo 37973322 | Mohamed Abdirisak Ali | Pexels License | No |
 | puntland-camel-herding.jpg | Pexels, photo 37973321 | Mohamed Abdirisak Ali | Pexels License | No |
-| puntland-market-scene.jpg | Pexels, photo 28808690 | Abdulkadir Hiraabe | Pexels License | No |
+| puntland-market-sacks.jpg | Pexels, photo 31585435 | Kaybee Photography | Pexels License | No |
 | puntland-portrait.jpg | Pexels, photo 10897178 | Yontoy Photography | Pexels License | No |
 | puntland-acacia-plain.jpg | Pexels, photo 31683104 | J N | Pexels License | No |
 | puntland-acacia-mountains.jpg | Pexels, photo 7128315 | DoLiKs | Pexels License | No |
@@ -47,16 +47,18 @@ Notes on honesty/accuracy of the Pexels set:
   not frankincense's pale gold), not because the species is confirmed.
   Captions describe them generically ("resin forming on a tapped trunk")
   rather than asserting the exact species.
-- `puntland-camel-caravan.jpg`, `puntland-camel-herding.jpg`, and
-  `puntland-market-scene.jpg` are genuinely Somalia-specific (captioned as
-  such by their photographers). `puntland-portrait.jpg` is captioned only
-  as "Mogadishu" — used here as general regional context, not as a claimed
-  photo of a specific Horn Heritage founder, harvester, or partner family
-  (no stock photo of a real, identifiable stranger should be captioned as
-  if they have a specific business relationship with Horn Heritage).
-- `tree-bark-texture.jpg` and `export-crates.jpg` are generic (not
-  Somalia-specific) — used for slots where the subject (bark texture,
-  export packaging) doesn't require a specific location.
+- `puntland-camel-caravan.jpg` and `puntland-camel-herding.jpg` are
+  genuinely Somalia-specific (captioned as such by their photographers).
+  `puntland-portrait.jpg` is captioned only as "Mogadishu" — used here as
+  general regional context, not as a claimed photo of a specific Horn
+  Heritage founder, harvester, or partner family (no stock photo of a
+  real, identifiable stranger should be captioned as if they have a
+  specific business relationship with Horn Heritage).
+- `tree-bark-texture.jpg`, `export-crates.jpg`, and
+  `puntland-market-sacks.jpg` are generic (not confirmed Somalia-specific
+  by the photographer) — used for slots where the subject (bark texture,
+  export packaging, a generic trading-market scene) doesn't require a
+  confirmed specific location.
 
 CC BY-SA / CC BY requires visible attribution (author + license) and,
 strictly, that adaptations stay under a compatible license. Pexels-licensed

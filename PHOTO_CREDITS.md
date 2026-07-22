@@ -53,6 +53,15 @@ New files: `myrrh-bark-tapped.jpg`, `myrrh-bark-drip.jpg`,
 `puntland-acacia-plain.jpg`, `puntland-acacia-mountains.jpg`,
 `puntland-acacia-sunrise.jpg`, `tree-bark-texture.jpg`, `export-crates.jpg`.
 
+## 2026-07-22 — market scene swap
+
+`puntland-market-scene.jpg` (a mother carrying her baby at a market) was
+replaced in the Why Our Resin "Direct sourcing" slot with
+`puntland-market-sacks.jpg` (a vendor arranging sacks of goods at an
+open-air market) — a closer visual match for a trading/sourcing caption,
+and avoids using an unrelated family portrait to illustrate a supply-chain
+claim. See `public/images/CREDITS.md` for source/license detail.
+
 ## Deliberately not used
 
 A few assets in `Images/` were skipped:
