@@ -31,7 +31,7 @@ export function Hero() {
           </h1>
           <p className="mt-7 max-w-md text-base text-sand-200">
             Hand-sorted, premium grades, sourced directly from harvesting families across
-            Puntland — no middlemen, no anonymous supply chains.
+            Puntland — full traceability from tree to shipment.
           </p>
           <div className="mt-9 flex flex-wrap gap-4">
             <Button href="/shop" variant="secondary">

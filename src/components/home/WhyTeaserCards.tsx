@@ -17,7 +17,7 @@ const cards = [
   },
   {
     title: "Direct from Puntland",
-    description: "No middlemen — we buy directly from the families who harvest each tree.",
+    description: "Full traceability — we buy directly from the families who harvest each tree.",
   },
 ];
 
